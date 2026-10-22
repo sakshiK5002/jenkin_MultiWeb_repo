@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | MultiWeb</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h2 class="logo">MultiWeb</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    <h1>Contact Us</h1>
+    <p>Send us a message using the form below.</p>
+
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name"
+             name="name" required>
+      <input type="email" placeholder="Your Email"
+             name="email" required>
+      <textarea placeholder="Your Message"
+                name="message" required></textarea>
+      <button class="btn" type="submit">Send Message</button>
+      <p id="formMessage" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 MultiWeb. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
